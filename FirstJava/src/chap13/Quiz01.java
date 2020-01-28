@@ -7,6 +7,7 @@ public class Quiz01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] ar = new int[5];
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0; i < ar.length; i++) {
 			ar[i] = sc.nextInt();
