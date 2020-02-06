@@ -63,3 +63,9 @@ public class Quiz01 {
 	}
 
 }
+
+/*
+ * 참고 사이트(생활코딩)
+ * https://edu.goorm.io/learn/lecture/41/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94-java/lesson/39244/equals 
+ */
+ 
