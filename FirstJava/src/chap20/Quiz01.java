@@ -19,18 +19,7 @@ public class Quiz01 {
 		else
 			x = Z - A;
 		
-//		String a = sc.next();
-//		String b = sc.next();
-		
-//		char ca = a.charAt(0);
-//		char cb = b.charAt(0);
-		
-//		System.out.println(ca);
-//		System.out.println(cb);
 		Random rnum = new Random();
-//		System.out.println(rnum.nextInt(ca) + cb);
-		
-		
 		System.out.println( A + "와 " + Z +" 사이의 랜덤 수 : " + (rnum.nextInt(A) + x));
 		
 //		String afaa = "aa";
