@@ -64,8 +64,26 @@ public class Quiz01 {
 
 }
 
+// /*equals 메소드 사용 tip*/
+//String afaa = "aa";
+//
+//if(afaa.equals("aa")) {
+//	// afaa가 null일 수 있으므로 위 코드는 예외처리가 필요 >> 지양하는 코드
+//}
+//
+//if("aa".equals(afaa)) {
+//	// 이렇게 비교하는 경우가 더 많다
+//	// 확실한 값을 왼쪽에 놓고 비교하는게 오류가 적다
+//}
+
+
+
+
 /*
- * 참고 사이트(생활코딩)
+ * 참고 사이트
+ * - 생활코딩
  * https://edu.goorm.io/learn/lecture/41/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94-java/lesson/39244/equals 
+ * - NullPoint Exception 관련
+ * https://kms0209.tistory.com/1
  */
  

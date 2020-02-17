@@ -22,16 +22,7 @@ public class Quiz01 {
 		Random rnum = new Random();
 		System.out.println( A + "와 " + Z +" 사이의 랜덤 수 : " + (rnum.nextInt(A) + x));
 		
-//		String afaa = "aa";
-//		
-//		if(afaa.equals("aa")) {
-//			
-//		}
-//		
-//		if("aa".equals(afaa)) {
-//			
-//		}
-		
+
 	}
 
 }
