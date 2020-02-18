@@ -12,7 +12,7 @@ class PersonName implements Comparable{
 	}
 	
 	@Override
-	public int compareTo(Object o) {
+	public int compareTo(Object o) {  //  졍렬의 기준이 이름 길이 순(오름차순)
 		PersonName p = (PersonName)o;
 		return (this.name.length() - p.name.length());
 	}

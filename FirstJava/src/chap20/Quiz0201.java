@@ -2,8 +2,8 @@ package chap20;
 
 import java.util.Arrays;
 /*나이 내림차순으로 정렬*/
-class PersonDesc implements Comparable{
-	
+class PersonDesc implements Comparable{  
+	// Comparable인터페이스는 제네릭이 도입되면서 Comparable<T> 인터페이스로 수정되었지만 지금도 기존 코드와의 호환성 유지를 위해 Comparable인터페이스를 지원하고 있다.
 	String name;
 	int age;
 	
@@ -14,7 +14,7 @@ class PersonDesc implements Comparable{
 	@Override
 	public int compareTo(Object o) {
 		PersonDesc p = (PersonDesc)o;
-		return p.age - this.age; 
+		return p.age - this.age; // 오름차순 정렬일 경우엔 return this.age - p.age;
 	}
 }
 
