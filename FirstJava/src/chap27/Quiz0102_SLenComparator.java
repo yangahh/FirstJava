@@ -5,10 +5,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-//class SLenComp implements Comparator<String>{
+//class SLenComp implements Comparator<String>{ 
 //
 //	@Override
-//	public int compare(String o1, String o2) {
+//	public int compare(String o1, String o2) {  // 추상 메소드 하나뿐
 //		return o1.length() - o2.length();
 //	}
 //	
