@@ -49,12 +49,32 @@ public class NullPointerCaseStudt2 {
 		
 		System.out.println(addr);
 	}
+//	public static void showCompAddr(Friend f) {
+//		String addr = null;
+//		if(f != null) {
+//			Company com = f.getCmp();
+//			
+//			if(com != null) {
+//				ContInfo2 info = com.getCInfo();
+//				
+//				if(info != null)
+//					addr = info.getAdrs();
+//			}
+//		}
+//		
+//		if(addr != null)
+//			System.out.println(addr);
+//		else
+//			System.out.println("There's no address information.");
+//	}
+	
 	public static void main(String[] args) {
-		ContInfo2 ci = new ContInfo2(null, "Korea");
-		Company cp = new Company("BD", ci);
-		Friend frn = new Friend("Kim", cp);
+		ContInfo2 ci = new ContInfo2("", null);
+		Company cp = new Company(null, ci);
+		Friend frn = new Friend(null, cp);
 		
-		showCompAddr(Optional.of(frn));
+		showCompAddr(Optional.of(frn));  // Optional 클래스로 감싸서 줘야함
+//		showCompAddr(frn);
 	}
 
 }
