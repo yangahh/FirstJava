@@ -12,11 +12,11 @@ public class ExecutorsDemo {
 			System.out.println(name + " : " + (n1+n2));
 		};
 		
-		ExecutorService exr = Executors.newSingleThreadExecutor();
-		exr.submit(task);
+		ExecutorService exr = Executors.newSingleThreadExecutor();  // 쓰레드 하나가 있는 쓰레드 풀 생성
+		exr.submit(task);  // 쓰레드 풀에 작업을 전달
 		
 		System.out.println("End " + Thread.currentThread().getName());
-		exr.shutdown();
+		exr.shutdown();  // 쓰레드 풀과 그 안에 있는 쓰레드 소멸
 	}
 
 }
